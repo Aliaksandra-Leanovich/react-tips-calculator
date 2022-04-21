@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import CustomSelect from "../CustomSelect/CustomSelect";
 import React, { useEffect, useState, ChangeEvent, FormEvent } from "react";
 import { ICalculator } from "../../types";
-import { StyledForm, Title, Text, InputsContainer, Total } from "./styles";
+import { StyledForm, Title, Text, InputsContainer, Total } from "./style";
 import { IOptions } from "../../types/index";
 
 const Form = () => {
