@@ -31,7 +31,7 @@ const Form = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(total, bill, tip, persons);
+
     const totalSum = (+bill * +tip.value) / +persons;
 
     if (bill && persons) {

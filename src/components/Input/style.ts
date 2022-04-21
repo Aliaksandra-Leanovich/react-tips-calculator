@@ -5,13 +5,13 @@ const StyledInput = styled.input`
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
 
   max-width: 456px;
   width: 100%;
   padding: 20px 20px;
 
-  background: #ffffff;
+  background: rgba(255, 255, 255, 1);
   border-radius: 30px;
 
   &::placeholder {
@@ -20,6 +20,7 @@ const StyledInput = styled.input`
     line-height: 26px;
     color: rgba(117, 108, 108, 0.6);
   }
+
   @media (max-width: 1024px) {
     max-width: 331px;
   }

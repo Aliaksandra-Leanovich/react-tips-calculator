@@ -1,5 +1,4 @@
 import { StyledInput } from "./style";
-
 interface IProps {
   placeholder: string;
   name: string;
@@ -27,4 +26,5 @@ const Input = ({
     />
   );
 };
+
 export default Input;
