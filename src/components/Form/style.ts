@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledForm = styled.form`
   padding-top: 170px;
   padding-bottom: 50px;
-  max-width: 460px;
+  max-width: 456px;
   width: 100%;
 
   display: grid;

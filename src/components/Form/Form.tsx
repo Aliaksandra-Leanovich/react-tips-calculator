@@ -16,7 +16,7 @@ const Form = () => {
 
   const { bill, persons, tip, total } = cheque;
 
-  const [isDisabled, setIsDisabled] = useState(true);
+  const [isDisabled, setIsDisabled] = useState<boolean>(true);
 
   const handleInput = (e: ChangeEvent<HTMLInputElement>) => {
     const { value, name } = e.target;
