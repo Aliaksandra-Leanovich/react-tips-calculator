@@ -2,12 +2,12 @@ import Input from "../Input/Input";
 import Button from "../Button/Button";
 import CustomSelect from "../CustomSelect/CustomSelect";
 import React, { useEffect, useState, ChangeEvent, FormEvent } from "react";
-import { ICalculator } from "../../types";
+import { ICheque } from "../../types";
 import { StyledForm, Title, Text, InputsContainer, Total } from "./style";
 import { IOptions } from "../../types/index";
 
 const Form = () => {
-  const [cheque, setTotal] = useState<ICalculator>({
+  const [cheque, setTotal] = useState<ICheque>({
     bill: "",
     persons: "",
     tip: { value: 0.1, label: "10%" },
