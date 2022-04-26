@@ -1,26 +1,16 @@
 import { StyledInput } from "./style";
 interface IProps {
-  placeholder: string;
   name: string;
-  type: string;
-  min: string;
   value: string | number;
   handleInput: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
-const Input = ({
-  name,
-  placeholder,
-  type,
-  value,
-  min,
-  handleInput,
-}: IProps) => {
+const Input = ({ name, value, handleInput }: IProps) => {
   return (
     <StyledInput
-      type={type}
-      placeholder={placeholder}
+      type="number"
+      placeholder={`Enter ${name}`}
       name={name}
-      min={min}
+      min="1"
       value={value}
       onChange={handleInput}
     />

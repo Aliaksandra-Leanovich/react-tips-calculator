@@ -52,22 +52,8 @@ const Form = () => {
       <Title>Welcome to App</Title>
       <Text>Lets go calculate your tips</Text>
       <InputsContainer>
-        <Input
-          name="bill"
-          type="number"
-          placeholder="Enter bill"
-          min="1"
-          handleInput={handleInput}
-          value={bill}
-        />
-        <Input
-          name="persons"
-          type="number"
-          placeholder="Enter persons "
-          handleInput={handleInput}
-          value={persons}
-          min="1"
-        />
+        <Input name="bill" handleInput={handleInput} value={bill} />
+        <Input name="persons" handleInput={handleInput} value={persons} />
         <CustomSelect
           name="selectTip"
           handleSelect={handleSelect}
