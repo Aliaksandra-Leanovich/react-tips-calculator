@@ -11,17 +11,12 @@ const CustomSelect = ({ name, handleSelect, value }: ISelect) => {
   const customStyles: StylesConfig<IOptions> = {
     control: (provided) => ({
       ...provided,
-      maxWidth: "456px",
-      width: "100%",
       borderRadius: "30px",
       paddingTop: "15px",
       paddingBottom: "15px",
       paddingLeft: "10px",
       border: "none",
       cursor: "pointer",
-      "@media (max-width: 1024px)": {
-        maxWidth: "331px",
-      },
     }),
 
     singleValue: (provided) => ({
