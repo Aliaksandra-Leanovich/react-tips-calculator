@@ -6,8 +6,6 @@ const StyledButton = styled.button<IProps>`
   line-height: 35px;
   color: rgba(255, 255, 255, 1);
 
-  max-width: 459px;
-  width: 100%;
   padding-top: 13px;
   padding-bottom: 13px;
 
