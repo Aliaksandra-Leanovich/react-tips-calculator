@@ -23,7 +23,7 @@ button {
 
 body{
   font-family: 'Noto Sans', sans-serif;
-  background-size: 171px 150px;
   background: no-repeat top left url(${circles}) rgba(234, 242, 242, 1);
+  background-size: 150px 180px;
 }
 `;
