@@ -7,7 +7,6 @@ const StyledInput = styled.input`
   text-align: center;
   color: rgba(0, 0, 0, 1);
 
-  max-width: 456px;
   width: 100%;
   padding: 20px 20px;
 
